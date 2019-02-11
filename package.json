@@ -1,0 +1,17 @@
+{
+  "name": "mailchimp-releasemail",
+  "version": "0.0.1",
+  "description": "Send automated release mails with a conventional changelog via MailChimp",
+  "main": "index.js",
+  "author": "Christiaan Scheermeijer",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "conventional-changelog": "^3.0.5",
+    "mailchimp-api-v3": "^1.12.1",
+    "meow": "^5.0.0"
+  },
+  "bin": {
+    "release-mail": "./bin/release-mail.js"
+  }
+}

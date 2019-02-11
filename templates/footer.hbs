@@ -1,0 +1,12 @@
+{{#if noteGroups}}
+    {{#each noteGroups}}
+
+        <h4>{{title}}</h4>
+
+        <ul>
+        {{#each notes}}
+            <li>{{text}}</li>
+        {{/each}}
+        </ul>
+    {{/each}}
+{{/if}}

@@ -1,0 +1,14 @@
+{{> header}}
+
+{{#each commitGroups}}
+{{#if title}}
+<h4>{{title}}:</h4>
+{{/if}}
+<ul>
+    {{#each commits}}
+    <li>{{> commit root=@root}}</li>
+    {{/each}}
+</ul>
+{{/each}}
+
+{{> footer}}
